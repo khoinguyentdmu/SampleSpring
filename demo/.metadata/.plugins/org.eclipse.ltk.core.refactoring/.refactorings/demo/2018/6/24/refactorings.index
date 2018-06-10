@@ -1,0 +1,4 @@
+1528601026024	Extract interface 'CustomerRepository'
+1528601381212	Rename type 'CustomerService'
+1528601394229	Rename type 'HibernateCustomerRepository'
+1528601427371	Extract interface 'CustomerService'

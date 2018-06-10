@@ -1,0 +1,7 @@
+package demo.service;
+
+import demo.repository.*;
+
+public class CustomerService {
+	private CustomerRepository = new HibernateCustomerRepository();
+}

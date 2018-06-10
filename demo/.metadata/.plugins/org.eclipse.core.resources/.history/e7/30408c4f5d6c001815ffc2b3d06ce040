@@ -1,0 +1,8 @@
+package demo.repository;
+
+import demo.model.*;
+import java.util.*;
+
+public class HibernateCustomerRepository {
+	public List<Customer> findAll{
+}

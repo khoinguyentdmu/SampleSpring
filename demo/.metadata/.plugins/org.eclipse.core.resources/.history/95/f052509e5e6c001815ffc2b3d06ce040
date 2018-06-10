@@ -1,0 +1,13 @@
+package demo.service;
+
+import demo.repository.*;
+import demo.model.*;
+import java.util.*;
+
+public class CustomerServiceImpl {
+	private CustomerRepository customerRepository= new HibernateCustomerRepositoryImpl();
+	
+	public List<Customer> findAll(){
+		return customerRepository.findAll();
+	}
+}
